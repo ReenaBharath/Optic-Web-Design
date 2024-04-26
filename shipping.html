@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricko Eyeglasses Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.jpeg" alt="Ricko EyeWear Boutique Logo">
+        </a>
+    </div>
+    <nav class="nav-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Products &#9662;</a>
+                <ul class="submenu">
+                    <li><a href="sunglasses.html">Sunglasses</a></li>
+                    <li><a href="spectacles.html">Spectacles</a></li>
+                    <li><a href="contact-lens.html">Contact Lens</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="faq_section.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <form id="search-button" action="search.html">
+        <label for="search"></label>
+        <input type="text" id="search" name="search" placeholder="John Jacob Sun glass">
+        <button type="submit">Search</button>
+    </form>
+</header>
+
+<main>
+    <section class="shipping-pickup-options">
+        <h1>Shipping and Pickup Options</h1>
+        <form>
+            <div class="option">
+                <input type="radio" id="shipping" name="delivery" value="shipping" checked>
+                <label for="shipping">Ship to my address</label>
+
+                <div class="address-fields">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" placeholder="Address" required>
+
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" placeholder="City" required>
+
+                    <label for="state">State:</label>
+                    <input type="text" id="state" name="state" placeholder="State" required>
+
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" id="zip" name="zip" placeholder="Zip Code" required>
+
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" placeholder="Country" required>
+                </div>
+            </div>
+
+            <div class="option">
+                <input type="radio" id="pickup" name="delivery" value="pickup">
+                <label for="pickup">I'll pick it up</label>
+            </div>
+
+            <div class="special-instructions">
+                <label for="instructions">Special Instructions or Notes:</label>
+                <textarea id="instructions" name="instructions" placeholder="Leave your instructions or notes here..."></textarea>
+            </div>
+
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <article class="product">
+                    <h3>Aqualens</h3>
+                    <figure>
+                        <img src="images/eyelens1.jpg" alt="Lens">
+                        <figcaption>Description: Daily Use</figcaption><br>
+                        <figcaption>Price: 500 kc</figcaption>
+                    </figure>
+                </article>
+
+                <article class="product">
+                    <h3>VC Polarized</h3>
+                    <figure>
+                        <img src="images/colorglass3.jpg" alt="Sunglasses">
+                        <figcaption>Size: Wide</figcaption><br>
+                        <figcaption>Price: 400 kc</figcaption>
+                    </figure>
+                </article>
+
+                <article class="product">
+                    <p>Total: 900 kc</p>
+                    <button>Checkout</button>
+                </article>
+            </div>
+
+            <button type="submit">Proceed to Payment</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Welcome to EyeWear Boutique, your premier destination for stylish eye wear. Discover our story and commitment to quality.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact Information</h3>
+            <p>Kamycka 1281,Suchdol, Prague, Czech Republic</p>
+            <p>Phone: (420) 123-456-789</p>
+            <p>Email: contact@eyewearboutique.com</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <ul class="social-media-links">
+                <li><a href="https://www.facebook.com/eyewearboutique">Facebook</a></li>
+                <li><a href="https://www.instagram.com/eyewearboutique">Instagram</a></li>
+                <li><a href="https://www.twitter.com/eyewearboutique">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/company/eyewearboutique">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2023 Ricko EyeWear Boutique,This is a Student's Project. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
